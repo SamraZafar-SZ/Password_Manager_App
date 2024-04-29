@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvurl"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnadd"
+        android:layout_width="63dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:clickable="true"
+        android:contentDescription="@string/add"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="@color/black"
+        app:srcCompat="@drawable/ic_add" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnRecycleBin"
+        android:layout_width="63dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="36dp"
+        android:clickable="true"
+        android:contentDescription="@string/recycle_bin"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/btnadd"
+        app:layout_constraintEnd_toStartOf="@+id/btnadd"
+        app:layout_constraintTop_toTopOf="@+id/btnadd"
+        app:layout_constraintVertical_bias="0.0"
+        app:rippleColor="@color/black"
+        app:srcCompat="@drawable/ic_bin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

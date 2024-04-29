@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Assignment 3</string>
+    <string name="add">ADD</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="website">Website</string>
+    <string name="url">URL</string>
+    <string name="save">SAVE</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="recycle_bin">recycle_bin</string>
+</resources>

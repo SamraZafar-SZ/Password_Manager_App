@@ -1,0 +1,13 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Assignment3" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color used for the app bar -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <!-- Dark variant of the primary color, used for the status bar -->
+        <item name="colorPrimaryDark">@color/my_dark_primary</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Assignment3" parent="Base.Theme.Assignment3" />
+</resources>
